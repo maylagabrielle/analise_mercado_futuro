@@ -5,7 +5,7 @@ O projeto possui dois notebooks:
 
 1. extrair.ipynb
   Responsável por extrair os dados de cotação dos preços de futuros na B3
-  1. Utiliza-se Selenium para realizar a automação
+    1. Utiliza-se Selenium para realizar a automação
 3. análise_de_correlação.ipynb
   Responsável pela análise de correlação e limpeza dos dados
   Os principais tratamentos são:
