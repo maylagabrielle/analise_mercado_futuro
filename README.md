@@ -13,3 +13,4 @@ O projeto possui dois notebooks:
     2. Tratamento da identificação dos vencimentos dos contratos
     3. União de contratos após o vencimento do contrato vigente ***
     4. Novo contrato precisa no mínimo n dias  para ser adicionado a série temporal concatenada pelo item 3
+    5. Adicionar a cotação do Dolar PTAX para transformar a cotação da Soja para Reais
