@@ -5,5 +5,11 @@ O projeto possui dois notebooks:
 
 1. extrair.ipynb
   Responsável por extrair os dados de cotação dos preços de futuros na B3
-2. análise_de_correlação.ipynb
-  Responsável pela análise de correlação e limpeza dos dados 
+  1. Utiliza-se Selenium para realizar a automação
+3. análise_de_correlação.ipynb
+  Responsável pela análise de correlação e limpeza dos dados
+  Os principais tratamentos são:
+    1. Transformação de dados tipo string para numéricos
+    2. Tratamento da identificação dos vencimentos dos contratos
+    3. União de contratos após o vencimento do contrato vigente ***
+    4. Novo contrato precisa no mínimo n dias  para ser adicionado a série temporal concatenada pelo item 3
